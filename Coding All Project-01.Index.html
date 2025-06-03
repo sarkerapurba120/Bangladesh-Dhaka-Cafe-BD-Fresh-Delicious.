@@ -1,0 +1,1547 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bangladesh(Dhaka) Cafe BD-Fresh & Delicious</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        body {
+            background-color: #f9f5f0;
+            color: #333;
+        }
+        
+        header {
+            background-color: #ff9a3c;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .cafe-image {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+        
+        .menu-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .menu-category {
+            background: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+        
+        .menu-category h2 {
+            color: #ff6b6b;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px dashed #ff9a3c;
+        }
+        
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px dotted #ddd;
+        }
+        
+        .menu-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        
+        .item-name {
+            font-weight: 500;
+        }
+        
+        .item-price {
+            color: #ff9a3c;
+            font-weight: bold;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: #333;
+            color: white;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            .menu-section {
+                grid-template-columns: 1fr;
+            }
+            
+            .cafe-image {
+                height: 300px;
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Bangladesh(Dhaka) Cafe</h1>
+        <p>Fresh Ingredients, Delicious Flavors</p>
+    </header>
+    
+    <div class="container">
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Bangladesh(Dhaka) Cafe Interior" class="cafe-image">
+        
+        <div class="menu-section">
+            <div class="menu-category">
+                <h2>Breakfast</h2>
+                <div class="menu-item">
+                    <span class="item-name">Avocado Toast</span>
+                    <span class="item-price">৳150/-</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Pancake Stack</span>
+                    <span class="item-price">৳900/-</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Eggs Benedict</span>
+                    <span class="item-price">৳1050/-</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Greek Yogurt Parfait</span>
+                    <span class="item-price">৳700/-</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Breakfast Burrito</span>
+                    <span class="item-price">৳950/-</span>
+                </div>
+            </div>
+            
+            <div class="menu-category">
+                <h2>Lunch</h2>
+                <div class="menu-item">
+                    <span class="item-name">Quinoa Salad</span>
+                    <span class="item-price">৳1100/-</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Grilled Chicken Sandwich</span>
+                    <span class="item-price">৳1250/-</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Vegetable Panini</span>
+                    <span class="item-price">৳1000/-</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Beef Burger</span>
+                    <span class="item-price">৳1300/-</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Caesar Salad</span>
+                    <span class="item-price">৳950/-</span>
+                </div>
+            </div>
+            
+            <div class="menu-category">
+                <h2>Drinks</h2>
+                <div class="menu-item">
+                    <span class="item-name">Espresso</span>
+                    <span class="item-price">৳300/-</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Cappuccino</span>
+                    <span class="item-price">৳450/-</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Iced Latte</span>
+                    <span class="item-price">৳500/-</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Fresh Orange Juice</span>
+                    <span class="item-price">৳400/-</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Green Tea</span>
+                    <span class="item-price">৳350/-</span>
+                </div>
+            </div>
+            
+            <div class="menu-category">
+                <h2>Desserts</h2>
+                <div class="menu-item">
+                    <span class="item-name">Chocolate Cake</span>
+                    <span class="item-price">৳650/-</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Cheesecake</span>
+                    <span class="item-price">৳700/-</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Tiramisu</span>
+                    <span class="item-price">৳750/-</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Apple Pie</span>
+                    <span class="item-price">৳600/-</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Ice Cream Sundae</span>
+                    <span class="item-price">৳550/-</span>
+                    <script>
+                    
+async function placeOrder(userId, restaurantId, items) {
+  // Validate user
+  const user = await User.findById(userId);
+  if (!user) throw new Error('User not found');
+  
+  // Create order
+  const order = new Order({
+    user: userId,
+    restaurant: restaurantId,
+    items: items,
+    status: 'pending',
+    createdAt: new Date()
+  });
+  
+  // Process payment
+  const paymentResult = await processPayment(user, order.total);
+  if (!paymentResult.success) {
+    order.status = 'payment_failed';
+    await order.save();
+    throw new Error('Payment failed');
+  }
+  
+  // Notify restaurant
+  await notifyRestaurant(restaurantId, order._id);
+  
+  return order;
+}
+                    </script>
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>© 2025 Bangladesh(Dhaka) Cafe. All rights reserved.</p>
+        <p>123 Main Road, Dhaka | (+880) 1797-921564 | Open 07am-10pm daily</p>
+    </footer>
+</body>
+</html>
+
+<br><br><br>        
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Button with Link and Text</title>
+    <style>
+        .container {
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+        .text {
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="text">Click this button to go to the next page</p>
+        <a href="https://example.com" class="button">Click Here</a>
+    </div>
+</body>
+</html>
+
+<br><br><br>  
+
+<div class="pagination">
+    <a href="page1.html">01 page</a><br>
+    <a href="page2.html" class="active">02 page</a><br>
+    <a href="page3.html">03 page</a><br>
+</div>
+
+
+
+<br><br><br>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bangladesh(Dhaka) Cafe -Institution Employer Directory</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Login Form -->
+        <div id="login-section" class="login-container">
+            <h2>Bangladesh(Dhaka) Cafe-Employer Directory Login</h2>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="token">Token Number:</label>
+                    <input type="text" id="token" name="token" required>
+                </div>
+                <button type="submit" class="btn">Access Directory</button>
+            </form>
+        </div>
+
+        <!-- Directory Section (initially hidden) -->
+        <div id="directory-section" class="directory-container" style="display: none;">
+            <div class="header">
+                <h2>Bangladesh(Dhaka) Cafe-Employer Directory</h2>
+                <div class="user-info">
+                    <span id="display-name"></span>
+                    <button id="logout-btn" class="btn logout">Logout</button>
+                </div>
+            </div>
+
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search by name, title or department...">
+                <button id="search-btn" class="btn">Search</button>
+                <button id="reset-search" class="btn secondary">Reset</button>
+            </div>
+
+            <div class="actions">
+                <button id="contact-btn" class="btn">Contact Seat Back</button>
+            </div>
+
+            <div class="directory-table-container">
+                <table id="directory-table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Title</th>
+                            <th>Department</th>
+                            <th>Phone</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody id="directory-body">
+                        <!-- Employer data will be populated here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Contact Modal (hidden by default) -->
+        <div id="contact-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Contact Seat Back</h3>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-email">Your Email:</label>
+                        <input type="email" id="contact-email" name="contact-email" required>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<style>
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2, h3 {
+    color: #2c3e50;
+}
+
+/* Login Section */
+.login-container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+/* Button Styles */
+.btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+.btn.secondary {
+    background-color: #95a5a6;
+}
+
+.btn.secondary:hover {
+    background-color: #7f8c8d;
+}
+
+.btn.logout {
+    background-color: #e74c3c;
+    margin-left: 15px;
+}
+
+.btn.logout:hover {
+    background-color: #c0392b;
+}
+
+/* Directory Section */
+.directory-container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.search-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-container input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.actions {
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+/* Table Styles */
+.directory-table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: black;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .search-container {
+        flex-direction: column;
+    }
+    
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .user-info {
+        margin-top: 15px;
+    }
+    
+    th, td {
+        padding: 8px 10px;
+    }
+}
+</style>
+
+
+
+<script>
+// Sample employer data
+const employers = [
+    { name: "01.  Ariful Islam", title: "Director", department: "Administration", phone: "01711-121212", email: "ariful.islam@institution.edu" },
+    { name: "02.  Ali Osman", title: "HR Manager", department: "Human Resources", phone: "01711-121212", email: "ali.osman@institution.edu" },
+    { name: "03.  Isalt Ali", title: "Finance Officer", department: "Finance", phone: "01711-121212", email: "isalt.ali@institution.edu" },
+    { name: "04.  Salman Ali", title: "Academic Dean", department: "Academics", phone: "01711-121212", email: "salman.ali@institution.edu" },
+    { name: "05.  Raiman Islam", title: "IT Manager", department: "Information Technology", phone: "01711-121212", email: "raiman.islam@institution.edu" },
+    { name: "06.  Aslam Ali", title: "Admissions Officer", department: "Admissions", phone: "01711-121212", email: "aslam.ali@institution.edu" },
+    { name: "07.  Mahatab Ali", title: "Facilities Manager", department: "Operations", phone: "01711-121212", email: "mahatab.ali@institution.edu" },
+    { name: "08.  Ali Islam", title: "Student Counselor", department: "Student Services", phone: "01711-121212", email: "ali.islam@institution.edu" },
+    { name: "09.  Arif Islam", title: "Director", department: "Administration", phone: "01711-121212", email: "arif.islam@institution.edu" },
+    { name: "10.  Ali Osman", title: "HR Manager", department: "Human Resources", phone: "01711-121212", email: "ali.osman@institution.edu" },
+    { name: "11.  Borun Ali", title: "Finance Officer", department: "Finance", phone: "01711-121212", email: "borun.ali@institution.edu" },
+    { name: "12.  Lion Ali", title: "Academic Dean", department: "Academics", phone: "01711-121212", email: "lion.ali@institution.edu" },
+    { name: "13.  Rimon Islam", title: "IT Manager", department: "Information Technology", phone: "01711-121212", email: "rimon.islam@institution.edu" },
+    { name: "14.  Sehabul Ali", title: "Admissions Officer", department: "Admissions", phone: "01711-121212", email: "sehabul.ali@institution.edu" },
+    { name: "15.  Mahata Ali", title: "Facilities Manager", department: "Operations", phone: "01711-121212", email: "mahata.ali@institution.edu" },
+    { name: "16.  Shil Islam", title: "Student Counselor", department: "Student Services", phone: "01711-121212", email: "shil.islam@institution.edu" },
+    { name: "17.  Ariful Islam", title: "Director", department: "Administration", phone: "01711-121212", email: "ariful.islam@institution.edu" },
+    { name: "18.  Ali Osman", title: "HR Manager", department: "Human Resources", phone: "01711-121212", email: "ali.osman@institution.edu" },
+    { name: "19.  Isalt Ali", title: "Finance Officer", department: "Finance", phone: "01711-121212", email: "isalt.ali@institution.edu" },
+    { name: "20.  Salman Ali", title: "Academic Dean", department: "Academics", phone: "01711-121212", email: "salman.ali@institution.edu" },
+    { name: "21.  Raiman Islam", title: "IT Manager", department: "Information Technology", phone: "01711-121212", email: "raiman.islam@institution.edu" },
+    { name: "22.  Aslam Ali", title: "Admissions Officer", department: "Admissions", phone: "01711-121212", email: "aslam.ali@institution.edu" },
+    { name: "23.  Mahatab Ali", title: "Facilities Manager", department: "Operations", phone: "01711-121212", email: "mahatab.ali@institution.edu" },
+    { name: "24.  Ali Islam", title: "Student Counselor", department: "Student Services", phone: "01711-121212", email: "ali.islam@institution.edu" },
+    { name: "25.  Arif Islam", title: "Director", department: "Administration", phone: "01711-121212", email: "arif.islam@institution.edu" },
+    { name: "26.  Ali Osman", title: "HR Manager", department: "Human Resources", phone: "01711-121212", email: "ali.osman@institution.edu" },
+    { name: "27.  Borun Ali", title: "Finance Officer", department: "Finance", phone: "01711-121212", email: "borun.ali@institution.edu" },
+    { name: "28.  Lion Ali", title: "Academic Dean", department: "Academics", phone: "01711-121212", email: "lion.ali@institution.edu" },
+    { name: "29.  Rimon Islam", title: "IT Manager", department: "Information Technology", phone: "01711-121212", email: "rimon.islam@institution.edu" },
+    { name: "30.  Sehabul Ali", title: "Admissions Officer", department: "Admissions", phone: "01711-121212", email: "sehabul.ali@institution.edu" },
+    { name: "31.  Mahata Ali", title: "Facilities Manager", department: "Operations", phone: "01711-121212", email: "mahata.ali@institution.edu" },
+    { name: "32.  Shil Islam", title: "Student Counselor", department: "Student Services", phone: "01711-121212", email: "shil.islam@institution.edu" },
+    { name: "33.  Ariful Islam", title: "Director", department: "Administration", phone: "01711-121212", email: "ariful.islam@institution.edu" },
+    { name: "34.  Ali Osman", title: "HR Manager", department: "Human Resources", phone: "01711-121212", email: "ali.osman@institution.edu" },
+    { name: "35.  Isalt Ali", title: "Finance Officer", department: "Finance", phone: "01711-121212", email: "isalt.ali@institution.edu" },
+    { name: "36.  Salman Ali", title: "Academic Dean", department: "Academics", phone: "01711-121212", email: "salman.ali@institution.edu" },
+    { name: "37.  Raiman Islam", title: "IT Manager", department: "Information Technology", phone: "01711-121212", email: "raiman.islam@institution.edu" },
+    { name: "38.  Aslam Ali", title: "Admissions Officer", department: "Admissions", phone: "01711-121212", email: "aslam.ali@institution.edu" },
+    { name: "39.  Mahatab Ali", title: "Facilities Manager", department: "Operations", phone: "01711-121212", email: "mahatab.ali@institution.edu" },
+    { name: "40.  Ali Islam", title: "Student Counselor", department: "Student Services", phone: "01711-121212", email: "ali.islam@institution.edu" },
+    { name: "41.  Arif Islam", title: "Director", department: "Administration", phone: "01711-121212", email: "arif.islam@institution.edu" },
+    { name: "42.  Ali Osman", title: "HR Manager", department: "Human Resources", phone: "01711-121212", email: "ali.osman@institution.edu" },
+    { name: "43.  Borun Ali", title: "Finance Officer", department: "Finance", phone: "01711-121212", email: "borun.ali@institution.edu" },
+    { name: "44.  Lion Ali", title: "Academic Dean", department: "Academics", phone: "01711-121212", email: "lion.ali@institution.edu" },
+    { name: "43.  Rimon Islam", title: "IT Manager", department: "Information Technology", phone: "01711-121212", email: "rimon.islam@institution.edu" },
+    { name: "44.  Sehabul Ali", title: "Admissions Officer", department: "Admissions", phone: "01711-121212", email: "sehabul.ali@institution.edu" },
+    { name: "45.  Mahata Ali", title: "Facilities Manager", department: "Operations", phone: "01711-121212", email: "mahata.ali@institution.edu" },
+    { name: "46.  Shil Islam", title: "Student Counselor", department: "Student Services", phone: "01711-121212", email: "shil.islam@institution.edu" },
+    { name: "47.  Ariful Islam", title: "Director", department: "Administration", phone: "01711-121212", email: "ariful.islam@institution.edu" },
+    { name: "48.  Ali Osman", title: "HR Manager", department: "Human Resources", phone: "01711-121212", email: "ali.osman@institution.edu" },
+    { name: "49.  Isalt Ali", title: "Finance Officer", department: "Finance", phone: "01711-121212", email: "isalt.ali@institution.edu" },
+    { name: "50.  Salman Ali", title: "Academic Dean", department: "Academics", phone: "01711-121212", email: "salman.ali@institution.edu" },
+    { name: "51.  Raiman Islam", title: "IT Manager", department: "Information Technology", phone: "01711-121212", email: "raiman.islam@institution.edu" },
+    { name: "52.  Aslam Ali", title: "Admissions Officer", department: "Admissions", phone: "01711-121212", email: "aslam.ali@institution.edu" },
+    { name: "53.  Mahatab Ali", title: "Facilities Manager", department: "Operations", phone: "01711-121212", email: "mahatab.ali@institution.edu" },
+    { name: "54.  Ali Islam", title: "Student Counselor", department: "Student Services", phone: "01711-121212", email: "ali.islam@institution.edu" },
+    { name: "55.  Arif Islam", title: "Director", department: "Administration", phone: "01711-121212", email: "arif.islam@institution.edu" },
+    { name: "56.  Ali Osman", title: "HR Manager", department: "Human Resources", phone: "01711-121212", email: "ali.osman@institution.edu" },
+    { name: "57.  Borun Ali", title: "Finance Officer", department: "Finance", phone: "01711-121212", email: "borun.ali@institution.edu" },
+    { name: "58.  Lion Ali", title: "Academic Dean", department: "Academics", phone: "01711-121212", email: "lion.ali@institution.edu" },
+    { name: "59.  Rimon Islam", title: "IT Manager", department: "Information Technology", phone: "01711-121212", email: "rimon.islam@institution.edu" },
+    { name: "60.  Sehabul Ali", title: "Admissions Officer", department: "Admissions", phone: "01711-121212", email: "sehabul.ali@institution.edu" },
+    { name: "61.  Mahata Ali", title: "Facilities Manager", department: "Operations", phone: "01711-121212", email: "mahata.ali@institution.edu" },
+    { name: "62.  Shil Islam", title: "Student Counselor", department: "Student Services", phone: "01711-121212", email: "shil.islam@institution.edu" },
+];
+
+// DOM Elements
+const loginSection = document.getElementById('login-section');
+const directorySection = document.getElementById('directory-section');
+const loginForm = document.getElementById('login-form');
+const logoutBtn = document.getElementById('logout-btn');
+const displayName = document.getElementById('display-name');
+const directoryBody = document.getElementById('directory-body');
+const searchInput = document.getElementById('search-input');
+const searchBtn = document.getElementById('search-btn');
+const resetSearch = document.getElementById('reset-search');
+const contactBtn = document.getElementById('contact-btn');
+const contactModal = document.getElementById('contact-modal');
+const closeModal = document.querySelector('.close');
+const contactForm = document.getElementById('contact-form');
+
+// Current user
+let currentUser = null;
+
+// Initialize the page
+function init() {
+    // Check if user is already logged in (from sessionStorage)
+    const savedUser = sessionStorage.getItem('directoryUser');
+    if (savedUser) {
+        currentUser = JSON.parse(savedUser);
+        showDirectory();
+    }
+    
+    // Populate employer table
+    renderEmployers(employers);
+    
+    // Set up event listeners
+    setupEventListeners();
+}
+
+// Set up event listeners
+function setupEventListeners() {
+    // Login form submission
+    loginForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        const name = document.getElementById('name').value;
+        const phone = document.getElementById('phone').value;
+        const token = document.getElementById('token').value;
+        
+        // Basic validation
+        if (name && phone && token) {
+            currentUser = { name, phone, token };
+            
+            // Save user to sessionStorage
+            sessionStorage.setItem('directoryUser', JSON.stringify(currentUser));
+            
+            // Show directory
+            showDirectory();
+        } else {
+            alert('Please fill in all fields');
+        }
+    });
+    
+    // Logout button
+    logoutBtn.addEventListener('click', function() {
+        // Clear user data
+        currentUser = null;
+        sessionStorage.removeItem('directoryUser');
+        
+        // Show login form
+        loginSection.style.display = 'block';
+        directorySection.style.display = 'none';
+        
+        // Reset form
+        loginForm.reset();
+    });
+    
+    // Search functionality
+    searchBtn.addEventListener('click', searchEmployers);
+    searchInput.addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') {
+            searchEmployers();
+        }
+    });
+    
+    // Reset search
+    resetSearch.addEventListener('click', function() {
+        searchInput.value = '';
+        renderEmployers(employers);
+    });
+    
+    // Contact button
+    contactBtn.addEventListener('click', function() {
+        contactModal.style.display = 'block';
+    });
+    
+    // Close modal
+    closeModal.addEventListener('click', function() {
+        contactModal.style.display = 'none';
+    });
+    
+    // Contact form submission
+    contactForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        const subject = document.getElementById('subject').value;
+        const message = document.getElementById('message').value;
+        const email = document.getElementById('contact-email').value;
+        
+        // In a real application, you would send this data to a server
+        console.log('Message to seat back:', { subject, message, email });
+        
+        // Show confirmation and close modal
+        alert('Your message has been sent to the seat back.');
+        contactModal.style.display = 'none';
+        contactForm.reset();
+    });
+    
+    // Close modal when clicking outside
+    window.addEventListener('click', function(event) {
+        if (event.target === contactModal) {
+            contactModal.style.display = 'none';
+        }
+    });
+}
+
+// Show directory section
+function showDirectory() {
+    loginSection.style.display = 'none';
+    directorySection.style.display = 'block';
+    
+    // Display user's name
+    displayName.textContent = `Welcome Bangladesh(Dhaka) Cafe, ${currentUser.name}`;
+}
+
+// Render employers to the table
+function renderEmployers(employersToRender) {
+    directoryBody.innerHTML = '';
+    
+    employersToRender.forEach(employer => {
+        const row = document.createElement('tr');
+        
+        row.innerHTML = `
+            <td>${employer.name}</td>
+            <td>${employer.title}</td>
+            <td>${employer.department}</td>
+            <td>${employer.phone}</td>
+            <td><a href="mailto:${employer.email}">${employer.email}</a></td>
+        `;
+        
+        directoryBody.appendChild(row);
+    });
+}
+
+// Search employers
+function searchEmployers() {
+    const searchTerm = searchInput.value.toLowerCase();
+    
+    if (!searchTerm) {
+        renderEmployers(employers);
+        return;
+    }
+    
+    const filteredEmployers = employers.filter(employer => 
+        employer.name.toLowerCase().includes(searchTerm) ||
+        employer.title.toLowerCase().includes(searchTerm) ||
+        employer.department.toLowerCase().includes(searchTerm) ||
+        employer.phone.includes(searchTerm) ||
+        employer.email.toLowerCase().includes(searchTerm)
+    );
+    
+    renderEmployers(filteredEmployers);
+}
+
+// Initialize the application when the DOM is loaded
+document.addEventListener('DOMContentLoaded', init);
+</script>   
+
+
+<br><br><br>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Button with Link and Text</title>
+    <style>
+        .container {
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+        .text {
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="text">Click this button to go to the next page</p>
+        <a href="https://example.com" class="button">Click Here</a>
+    </div>
+</body>
+</html>
+
+<br><br><br>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bangladesh(Dhaka) Cafe - Fresh & Delicious</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Bangladesh(Dhaka) Cafe</h1>
+            <p>Fresh ingredients, delicious flavors</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="employer-directory/">Staff Directory</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="container">
+        <section class="hero">
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Bangladesh(Dhaka) Cafe Interior" class="cafe-image">
+            <div class="hero-text">
+                <h2>Experience the Taste of Dhaka</h2>
+                <p>Authentic flavors with a modern twist</p>
+                <a href="#menu" class="btn">View Menu</a>
+            </div>
+        </section>
+        
+        <section id="about" class="about-section">
+            <h2>Our Story</h2>
+            <p>Founded in 2025, Bangladesh(Dhaka) Cafe brings the rich culinary traditions of Dhaka to a modern cafe setting. We source our ingredients locally and prepare everything fresh daily.</p>
+        </section>
+        
+        <section id="menu" class="menu-section">
+            <h2>Our Menu</h2>
+            <div class="menu-categories">
+                <div class="menu-category">
+                    <h3>Breakfast</h3>
+                    <div class="menu-item">
+                        <span class="item-name">Avocado Toast</span>
+                        <span class="item-price">৳150/-</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Pancake Stack</span>
+                        <span class="item-price">৳900/-</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Eggs Benedict</span>
+                        <span class="item-price">৳1050/-</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Greek Yogurt Parfait</span>
+                        <span class="item-price">৳700/-</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Breakfast Burrito</span>
+                        <span class="item-price">৳950/-</span>
+                    </div>
+                </div>
+                
+                <div class="menu-category">
+                    <h3>Lunch</h3>
+                    <div class="menu-item">
+                        <span class="item-name">Quinoa Salad</span>
+                        <span class="item-price">৳1100/-</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Grilled Chicken Sandwich</span>
+                        <span class="item-price">৳1250/-</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Vegetable Panini</span>
+                        <span class="item-price">৳1000/-</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Beef Burger</span>
+                        <span class="item-price">৳1300/-</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Caesar Salad</span>
+                        <span class="item-price">৳950/-</span>
+                    </div>
+                </div>
+                
+                <div class="menu-category">
+                    <h3>Drinks</h3>
+                    <div class="menu-item">
+                        <span class="item-name">Espresso</span>
+                        <span class="item-price">৳300/-</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Cappuccino</span>
+                        <span class="item-price">৳450/-</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Iced Latte</span>
+                        <span class="item-price">৳500/-</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Fresh Orange Juice</span>
+                        <span class="item-price">৳400/-</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Green Tea</span>
+                        <span class="item-price">৳350/-</span>
+                    </div>
+                </div>
+                
+                <div class="menu-category">
+                    <h3>Desserts</h3>
+                    <div class="menu-item">
+                        <span class="item-name">Chocolate Cake</span>
+                        <span class="item-price">৳650/-</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Cheesecake</span>
+                        <span class="item-price">৳700/-</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Tiramisu</span>
+                        <span class="item-price">৳750/-</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Apple Pie</span>
+                        <span class="item-price">৳600/-</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Ice Cream Sundae</span>
+                        <span class="item-price">৳550/-</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" class="contact-section">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <p><strong>Address:</strong> 123 Main Road, Dhaka</p>
+                <p><strong>Phone:</strong> (+880) 1797-921564</p>
+                <p><strong>Hours:</strong> Open 07am-10pm daily</p>
+                <p><strong>Email:</strong> info@dhakacafe.com</p>
+            </div>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.105693418627!2d90.4131493154316!3d23.78086879322636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7a0e9a7a3a9%3A0xe6a5e5e5e5e5e5e5!2s123%20Main%20Road%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1620000000000!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="employer-directory/">Staff Directory</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Opening Hours</h3>
+                <p>Monday - Friday: 7am - 10pm</p>
+                <p>Saturday - Sunday: 8am - 11pm</p>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Bangladesh(Dhaka) Cafe. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f9f5f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ff9a3c;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff7b0d;
+    transform: translateY(-2px);
+}
+
+/* Header Styles */
+header {
+    background-color: #ff9a3c;
+    color: white;
+    padding: 1rem 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.header-content {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #e88a2e;
+    padding: 0.8rem 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255,255,255,0.2);
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    margin: 2rem 0;
+}
+
+.cafe-image {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+
+.hero-text {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 500px;
+}
+
+.hero-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+}
+
+/* About Section */
+.about-section {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    color: #ff6b6b;
+    margin-bottom: 1.5rem;
+}
+
+.about-section p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+}
+
+/* Menu Section */
+.menu-section {
+    padding: 3rem 0;
+}
+
+.menu-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #ff6b6b;
+    margin-bottom: 2rem;
+}
+
+.menu-categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.menu-category {
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.menu-category h3 {
+    color: #ff6b6b;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px dashed #ff9a3c;
+    font-size: 1.5rem;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px dotted #ddd;
+}
+
+.menu-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.item-name {
+    font-weight: 500;
+}
+
+.item-price {
+    color: #ff9a3c;
+    font-weight: bold;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 3rem 0;
+}
+
+.contact-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #ff6b6b;
+    margin-bottom: 2rem;
+}
+
+.contact-info {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    margin-bottom: 2rem;
+}
+
+.contact-info p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.contact-info p:last-child {
+    margin-bottom: 0;
+}
+
+.map-container {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 3rem 0 1rem;
+    margin-top: 3rem;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer-section h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+    color: #ff9a3c;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 0.8rem;
+}
+
+.footer-section ul li a:hover {
+    color: #ff9a3c;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-links a {
+    font-size: 1.5rem;
+    color: white;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #ff9a3c;
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 1.5rem;
+    border-top: 1px solid #444;
+}
+
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav ul li {
+        margin: 5px 0;
+    }
+    
+    .hero-text {
+        position: static;
+        max-width: 100%;
+        margin-top: 1rem;
+        background-color: transparent;
+        color: #333;
+        padding: 0;
+    }
+    
+    .menu-categories {
+        grid-template-columns: 1fr;
+    }
+    
+    .cafe-image {
+        height: 300px;
+    }
+    
+    .map-container iframe {
+        height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+
+}
+    .hero-text h2 {
+        font-size: 1.5rem;
+    }
+    </style>
+
+
+
+
+
+
+
+
+
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect With Us</title>
+    <div class="contact-info">
+            <div class="contact-item">
+                <span class="contact-icon">📞</span>
+                <span>Hotline Number: <strong>8511-11215</strong></span>
+            </div>
+            
+            <div class="contact-item">
+                <span class="contact-icon">📱</span>
+                <span>Personal Number: <strong>01711-11215</strong></span>
+            </div>
+        </div>
+        
+    
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .connect-container {
+            max-width: 500px;
+            margin: 50px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        
+        .contact-info {
+            margin: 20px 0;
+            text-align: left;
+            padding: 0 20px;
+        }
+        
+        .contact-item {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .contact-icon {
+            margin-right: 15px;
+            color: #3498db;
+            font-size: 20px;
+        }
+        
+        .connect-button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 10px;
+        }
+        
+        .connect-button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="connect-container">
+        <h2>Connect With Us</h2>
+        
+        <div class="contact-info">
+            <div class="contact-item">
+                <span class="contact-icon">📞</span>
+                <span>Hotline Number: <strong>423-456-7890</strong></span>
+            </div>
+            
+            <div class="contact-item">
+                <span class="contact-icon">📱</span>
+                <span>Personal Number: <strong>01711-56546</strong></span>
+            </div>
+        </div>
+        
+        <button class="connect-button" onclick="alert('Connecting you with our team...')">
+            Click Here to Connect
+        </button>
+    </div>
+</body>
+</html>
